@@ -13,7 +13,7 @@ function Home() {
                     <div className="row no-gutters">
                         <div className="col-md-5">
                             <h1>I'm Umang Patel.</h1>
-                            <p>I'm computer engineer. This website is my minds reflection - a compendium of the things I've
+                            <p>I'm computer engineer. This website is my mind's reflection - a compendium of the things I've
                                 learned and created over the years.</p>
                             <p>
                                 <a href="https://github.com/theumang100" target="_blank" className="github_button" role="button">
