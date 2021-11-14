@@ -54,10 +54,10 @@ a:hover {
 .header_container {
     display: block;
     box-sizing: border-box;
-    /* z-index: 2; */
+    z-index: 2;
     position: fixed;
     top: 0;
-    left: 0;
+    /* left: 0; */
     width: 100%;
     border: none;
     background-color: var(--navbar-color);
