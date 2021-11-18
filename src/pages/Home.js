@@ -1,7 +1,6 @@
-import React,{ useState, useEffect, useMemo } from "react";
+import React,{ useState, useEffect } from "react";
 import '../css/style.css';
 import Header from "./Header";
-import profile from '../images/profile.jpg';
 
 function Home() {
     const [repos, setPublicRepoCount] = useState(0)
@@ -25,9 +24,9 @@ function Home() {
             <div className="intro_container">
                 <div className="container">
                     <div className="row no-gutters">
-                        <div className="col-md-5">
+                        <div className="col-md-12">
                             <h1>I'm Umang Patel.</h1>
-                            <p>I'm computer engineer. This website is my mind's reflection - a compendium of the things I've
+                            <p>I'm <b>computer engineer</b>. This website is my mind's reflection - a compendium of the things I've
                                 learned and created over the years.</p>
                             <p>
                                 <a href="https://github.com/theumang100" target="_blank" className="github_button" role="button">
@@ -40,10 +39,6 @@ function Home() {
                                 </a>
                             </p>
                         </div>
-                        <div className="col-md-7 profile_img">
-                            <img src={profile} alt="profile" />
-                        </div>
-
                     </div>
 
 
