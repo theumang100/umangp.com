@@ -29,7 +29,7 @@ function Home() {
                             <p>I'm <b>computer engineer</b>. This website is my mind's reflection - a compendium of the things I've
                                 learned and created over the years.</p>
                             <p>
-                                <a href="https://github.com/theumang100" target="_blank" className="github_button" role="button">
+                                <a rel="noreferrer" href="https://github.com/theumang100" target="_blank" className="github_button" role="button">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                                         className="bi bi-github" viewBox="0 0 16 16">
                                         <path
