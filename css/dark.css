@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+:root {
+    --font-color: #495057;
+    --heading-color: #343a40;
+    --background: white;
+    --dark-font-color: #1b1d25;
+    --medium-font-color: #60656c;
+    --light-font-color: #858b93;
+    --light-background: #f1f4f8;
+    --dark-background-intro: #2d2d31;
+    --dark-font-color-intro: #b3b9c5;
+    --dark-border-githun-button: #3b3b3b;
+    --dark-background-github-button: #3b3b3b;
+    --dark-font-color-description-subtitle: rgba(255, 255, 255, 0.5);
+    --dark-background-lower: #1f2022;
+    --light-background-hover: #e1e6ed;
+    --border: #d6d9de;
+    --link-color: #5183f5;
+    --link-color-darker: #364fc7;
+    --navbar-color: #1d1d1d;
+    --blockquote: #edf2ff;
+    --transparent-text: rgba(0, 0, 0, 0.7);
+    --transparent-bg: rgba(0, 0, 0, 0.05);
+    --light-transparent-bg: rgba(255, 255, 255, 0.1);
+    --font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', Roboto, Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --heading-font-family: 'DM Mono', Menlo, monospace;
+    --code-font-family: Menlo, 'Roboto Mono', Courier New, monospace;
+    --border-color: var(--dark-font-color);
+    --yellow: rgba(254, 220, 71, 1);
+    --yellow-orange: rgba(253, 186, 58, 1);
+    --orange: rgba(253, 152, 48, 1);
+    --red-orange: rgba(253, 119, 39, 1);
+    --subtle-border: rgba(0, 0, 0, 0.1);
+    --green: #35a353;
+    --light-green: #92d192;
+}
+
+body {
+    background-color: var(--dark-background-lower);
+}
+
+.intro_container {
+    background-color: var(--dark-background-intro);
+}
+
+.intro_container h1 {
+    color: white;
+}
+
+.intro_container p {
+    color: var(--dark-font-color-intro);
+}
+
+a.github_button {
+    border: 3px solid var(--dark-border-githun-button);
+    background-color: var(--dark-background-intro);
+    box-shadow: 5px 5px var(--dark-background-github-button);
+}
+
+a.github_button:hover {
+    border: 3px solid var(--link-color);
+    background-color: var(--dark-background-intro);
+    box-shadow: 5px 5px var(--link-color-darker);
+    transition: none;
+}
+
+.description_container {
+    background-color: var(--dark-background-intro);
+}
+
+.description_container h1 {
+    color: white;
+}
+
+.description_container p {
+    color: var(--dark-font-color-description-subtitle);
+}
+
+.about_me_info {
+    background-color: var(--dark-background-lower);
+    color: var(--dark-font-color-intro);
+}
