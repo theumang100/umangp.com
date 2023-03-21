@@ -12,7 +12,7 @@ function About() {
                     <div className="row no-gutters">
                         <div className="col-md-12">
 
-                            <p>Hey, I'm umang!. I'm a <b>computer</b> aka <b>software engineer</b> working in <b>India</b>. Welcome to my spot on the web for projects I've created, tutorials I've written, reflection of my mind.</p>
+                            <p>Hey, I'm umang!. I'm a <b>computer</b> aka <b>software engineer</b> working in <b>United States of America</b>. Welcome to my spot on the web for projects I've created, tutorials I've written, reflection of my mind.</p>
                             <p>This project is made with ReactJS technology and bootstrap framework. Hosting platform is aws.</p>
 
                         </div>
