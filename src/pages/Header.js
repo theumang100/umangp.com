@@ -32,7 +32,7 @@ function Header() {
                         <div className="col-md-7">
                             <div className="menu-item">
 
-                                <NavLink to="/blog" className="head_menu_link" activeStyle={{ background: "rgba(254, 220, 71, 1)", color: "#1b1d25" }}>Blog</NavLink>
+                                {/* <NavLink to="/blog" className="head_menu_link" activeStyle={{ background: "rgba(254, 220, 71, 1)", color: "#1b1d25" }}>Blog</NavLink> */}
                                 <NavLink to="/about" className="head_menu_link" activeStyle={{ background: "rgba(254, 220, 71, 1)", color: "#1b1d25" }}>About Me</NavLink>
                               
                                 <button
