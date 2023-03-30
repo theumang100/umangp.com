@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import '../css/style.css';
 import Header from "./Header";
-import SmallInfo from "./SmallInfo";
 
 function Home() {
     const [repos, setPublicRepoCount] = useState(0)
@@ -53,10 +52,10 @@ function Home() {
                         <h1>Connect With Me</h1>
                         <ul>
                             <li>
-                                <a href="https://twitter.com/the_umang_" target="_blank">Twitter</a>
+                                <a rel="noreferrer" href="https://twitter.com/the_umang_" target="_blank">Twitter</a>
                             </li>
                             <li>
-                            <a href="https://www.linkedin.com/in/umangpatel100/" target="_blank">Linkedin</a>
+                            <a rel="noreferrer" href="https://www.linkedin.com/in/umangpatel100/" target="_blank">Linkedin</a>
                             </li>
                         </ul>
                     </div>
