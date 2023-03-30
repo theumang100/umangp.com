@@ -77,6 +77,19 @@ a.github_button:hover {
     color: var(--dark-font-color-description-subtitle);
 }
 
+.smallinfo_container{
+    background-color: var(--dark-background-lower)
+}
+
+.smallinfo_container h1{
+    color: var(--dark-font-color-description-subtitle);
+    border-bottom: 1px solid var(--dark-font-color-intro);
+}
+
+.smallinfo_container a{
+    color: var(--link-color);
+}
+
 .about_me_info {
     background-color: var(--dark-background-lower);
     color: var(--dark-font-color-intro);
