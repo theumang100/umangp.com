@@ -319,8 +319,12 @@ a.github_button:hover {
         font-size: 1.2rem;
     }
 
-    .smallinfo_container ul{
-        font-size: 1.2rem;
+    .smallinfo_container h1{
+        font-size: 1.4rem;
+    }
+
+    .smallinfo_container li{
+        font-size: 1.05re;
     }
 
     .about_me_info p {
