@@ -288,7 +288,7 @@ a.github_button:hover {
         height: 2rem;
     }
 
-    div.intro_container p {
+    .intro_container p {
         font-size: 1.2rem;
     }
 
@@ -299,7 +299,7 @@ a.github_button:hover {
         margin-left: 0.25rem;
     }
 
-    div.profile_img img {
+    .profile_img img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -308,18 +308,22 @@ a.github_button:hover {
         margin-top: 1.75rem;
     }
 
-    div.description_container {
+    .description_container {
         padding-top: 3.5rem;
         padding-right: 0px;
         padding-bottom: 2rem;
         padding-left: 0px;
     }
 
-    div.description_container p {
+    .description_container p {
         font-size: 1.2rem;
     }
 
-    div.about_me_info p {
+    .smallinfo_container ul{
+        font-size: 1.2rem;
+    }
+
+    .about_me_info p {
         font-size: 1.05rem;
     }
 }
