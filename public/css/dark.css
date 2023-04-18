@@ -78,7 +78,8 @@ a.github_button:hover {
 }
 
 .smallinfo_container{
-    background-color: var(--dark-background-lower)
+    background-color: var(--dark-background-lower);
+    color: var(--dark-font-color-description-subtitle);
 }
 
 .smallinfo_container h1{

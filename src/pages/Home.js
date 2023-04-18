@@ -40,8 +40,6 @@ function Home() {
                         </p>
                     </div>
                 </div>
-
-
             </div>
         </div>
 
@@ -57,16 +55,14 @@ function Home() {
                             <li>
                             <a rel="noreferrer" href="https://www.linkedin.com/in/umangpatel100/" target="_blank">Linkedin</a>
                             </li>
+                            <li>
+                                Email: theumangpatelu2p@gmail.com
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
     </>);
 }
 

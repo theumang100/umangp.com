@@ -232,6 +232,10 @@ a.github_button:hover {
 
 }
 
+.smallinfo_container li{
+    font-size: 1.4rem;
+}
+
 .smallinfo_container li::marker{
     /* color: var(--marker); */
     font-size: 1.1rem;
@@ -252,6 +256,7 @@ a.github_button:hover {
     font-size: 1.4rem;
     margin: 0 0 1.5rem;
 }
+
 
 @media screen and (max-width: 767px) {
     a.head_img_txt_link {
@@ -324,7 +329,7 @@ a.github_button:hover {
     }
 
     .smallinfo_container li{
-        font-size: 1.05re;
+        font-size: 1.05rem;
     }
 
     .about_me_info p {
