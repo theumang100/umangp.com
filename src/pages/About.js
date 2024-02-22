@@ -18,19 +18,19 @@ function About() {
                             Technically, my skills include:
                             <ul>
                                 <li>
-                                <b>Programming Languages:</b> Java, Python, SQL, HTML, JavaScript, CSS 
+                                <b>Programming Languages:</b> Java, Python, C, C++, SQL, HTML, JavaScript, CSS 
                                 </li>
                                 <li>
-                                <b>Database Technologies:</b> MySQL, Oracle, Microsoft SQL Server 
+                                <b>Database Technologies:</b> MySQL, MongoDB, Oracle, Microsoft SQL Server 
                                 </li>
                                 <li>
-                                <b>Web and Frameworks:</b> jQuery, ReactJS, Bootstrap
+                                <b>Web and Frameworks:</b> React JS, Angular JS, Node JS, jQuery, Spring Boot, Hibernate, Bootstrap, JUnit
                                 </li>
                                 <li>
-                                <b>Cloud, Tools and Operating Systems:</b> Amazon Web Services (AWS), Git, Docker, Android Studio, Linux, Windows
+                                <b>Cloud, Tools and Operating Systems:</b> Android Studio, Amazon Web Services (AWS), Git, Docker, Jira, Jenkins, Postman, Tomcat, CI/CD, Linux, Windows 
                                 </li>
                                 <li>
-                                <b>Functional:</b> Artificial Intelligence (AI), Algorithms, Data Mining, Pattern Recognition, Cloud Architecture, Database Management, Data Structures
+                                <b>Functional:</b> Image Processing, Pattern Recognition, Artificial Intelligence (AI), Algorithms, Object Oriented Programming, Data Mining, Cloud Architecture, Database Management, Data Structures
                                 </li>
                             </ul>
                             </p>
