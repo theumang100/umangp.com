@@ -27,10 +27,10 @@ function About() {
                                 <b>Web and Frameworks:</b> React JS, Angular JS, Node JS, jQuery, Spring Boot, Hibernate, Bootstrap, JUnit
                                 </li>
                                 <li>
-                                <b>Cloud, Tools and Operating Systems:</b> Android Studio, Amazon Web Services (AWS), Git, Docker, Jira, Jenkins, Postman, Tomcat, CI/CD, Linux, Windows 
+                                <b>Cloud, Tools and Operating Systems:</b> Android Studio, Amazon Web Services (AWS), Git, Docker, Jira, Jenkins, Postman, Tomcat, CI/CD, TensorFlow, PyTorch, Linux, Windows 
                                 </li>
                                 <li>
-                                <b>Functional:</b> Image Processing, Pattern Recognition, Artificial Intelligence (AI), Algorithms, Object Oriented Programming, Data Mining, Cloud Architecture, Database Management, Data Structures
+                                <b>Functional:</b> Image Processing, Pattern Recognition, Artificial Intelligence (AI), Machine Learning, Algorithms, Object Oriented Programming, Data Mining, Cloud Architecture, Database Management, Data Structures
                                 </li>
                             </ul>
                             </p>
