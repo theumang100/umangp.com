@@ -18,16 +18,16 @@ function About() {
                             Technically, my skills include:
                             <ul>
                                 <li>
-                                <b>Programming Languages:</b> Java, Python, C, C++, SQL, HTML, JavaScript, CSS 
+                                <b>Programming Languages:</b> Python, C++, Java, R, SQL, JavaScript  
                                 </li>
                                 <li>
                                 <b>Database Technologies:</b> MySQL, MongoDB
                                 </li>
                                 <li>
-                                <b>Web and Frameworks:</b> TensorFlow, PyTorch, React JS, Angular JS, Node JS, jQuery, Spring Boot, Hibernate, Bootstrap, JUnit
+                                <b>Libraries and Frameworks:</b> TensorFlow, PyTorch, React JS, Node JS, jQuery, Spring Boot, Hibernate, Bootstrap, JUnit
                                 </li>
                                 <li>
-                                <b>Cloud, Tools and Operating Systems:</b> Android Studio, Amazon Web Services (AWS), Git, Docker, Jira, Jenkins, Postman, Tomcat, CI/CD, Linux, Windows 
+                                <b>Miscellaneous:</b> Android Studio, Amazon Web Services (AWS), Git, Docker, Jira, Jenkins, Postman, Tomcat, CI/CD, Linux, Windows 
                                 </li>
                                 <li>
                                 <b>Functional:</b> Deep Learning, Artificial Intelligence (AI), Machine Learning, Algorithms, Data Structures, Image Processing, Pattern Recognition, Object Oriented Programming, Data Mining, Cloud Architecture, Database Management
