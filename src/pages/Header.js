@@ -23,7 +23,7 @@ function Header() {
                             <div className="icon_img_text_container ">
                                 <Link to="/" className="head_img_txt_link">
                                     <span className="head_img">
-                                        <img src={doge_transperant} height="30px" width="30px" alt="doge"/>
+                                        <img src={doge_transperant} height="30px" width="30px" alt="doge" />
                                     </span>
                                     umang
                                 </Link>
@@ -32,9 +32,9 @@ function Header() {
                         <div className="col-md-7">
                             <div className="menu-item">
 
-                                { <NavLink to="/blog" className="head_menu_link" activeStyle={{ background: "rgba(254, 220, 71, 1)", color: "#1b1d25" }}>Blog</NavLink> }
+                                {<NavLink to="/blog" className="head_menu_link" activeStyle={{ background: "rgba(254, 220, 71, 1)", color: "#1b1d25" }}>Blog</NavLink>}
                                 <NavLink to="/about" className="head_menu_link" activeStyle={{ background: "rgba(254, 220, 71, 1)", color: "#1b1d25" }}>About Me</NavLink>
-                              
+
                                 <button
                                     id="dark_mode_button"
                                     onClick={(event) => {

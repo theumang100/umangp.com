@@ -15,24 +15,24 @@ function About() {
                             {/* <p>Currently I am in final semester of Master's in Computer Science at California State University - Channel Islands, Camarillo, California.</p> */}
                             <p>I like to develop softwares and solving errors. In my free time I like to do programming, listen music or play volley ball with friends if anyone is available:)</p>
                             <p>
-                            Technically, my skills include:
-                            <ul>
-                                <li>
-                                <b>Programming Languages:</b> Python, C++, Java, R, SQL, JavaScript  
-                                </li>
-                                <li>
-                                <b>Database Technologies:</b> MySQL, MongoDB
-                                </li>
-                                <li>
-                                <b>Libraries and Frameworks:</b> TensorFlow, PyTorch, React JS, Node JS, jQuery, Spring Boot, Hibernate, Bootstrap, JUnit
-                                </li>
-                                <li>
-                                <b>Miscellaneous:</b> Android Studio, Amazon Web Services (AWS), Git, Docker, Jira, Jenkins, Postman, Tomcat, CI/CD, Linux, Windows 
-                                </li>
-                                <li>
-                                <b>Functional:</b> Deep Learning, Artificial Intelligence (AI), Machine Learning, Algorithms, Data Structures, Image Processing, Pattern Recognition, Object Oriented Programming, Data Mining, Cloud Architecture, Database Management
-                                </li>
-                            </ul>
+                                Technically, my skills include:
+                                <ul>
+                                    <li>
+                                        <b>Programming Languages:</b> Python, C++, Java, R, SQL, JavaScript
+                                    </li>
+                                    <li>
+                                        <b>Database Technologies:</b> MySQL, MongoDB
+                                    </li>
+                                    <li>
+                                        <b>Libraries and Frameworks:</b> TensorFlow, PyTorch, React JS, Node JS, jQuery, Spring Boot, Hibernate, Bootstrap, JUnit
+                                    </li>
+                                    <li>
+                                        <b>Miscellaneous:</b> Android Studio, Amazon Web Services (AWS), Git, Docker, Jira, Jenkins, Postman, Tomcat, CI/CD, Linux, Windows
+                                    </li>
+                                    <li>
+                                        <b>Functional:</b> Deep Learning, Artificial Intelligence (AI), Machine Learning, Algorithms, Data Structures, Image Processing, Pattern Recognition, Object Oriented Programming, Data Mining, Cloud Architecture, Database Management
+                                    </li>
+                                </ul>
                             </p>
                             <p>This project is made with ReactJS technology and bootstrap framework. Hosting platform is aws.</p>
                         </div>

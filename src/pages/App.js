@@ -18,6 +18,7 @@ function App() {
                     <Route path="/blog" exact component={Blog} />
                     <Route path="/about" exact component={About} />
                     <Route path="/blog/:slug" component={BlogPost} />
+                    <Route path="*" element={<div>404 - Page not found (just like my sleep)</div>} />
                 </Switch>
             </BrowserRouter>
 
