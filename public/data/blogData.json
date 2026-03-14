@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "content": "This is a beginner's guide to React...",
+      "date": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "title": "State Management in React",
+      "content": "Learn how to manage state in React applications...",
+      "date": "2023-02-20"
+    },
+    {
+      "id": 3,
+      "title": "React Hooks Explained",
+      "content": "Explore the power of React Hooks...",
+      "date": "2023-03-10"
+    }
+  ]
+  
