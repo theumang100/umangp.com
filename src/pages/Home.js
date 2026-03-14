@@ -68,7 +68,7 @@ Yes... I still debug using console.log.
     const statCards = [
         { value: "1,247,392", label: "Lines of code written" },
         { value: "12,247", label: "Bugs introduced" },
-        { value: "0", label: "StackOverflow visits today" },
+        { value: "69", label: "LLM calls today" },
         { value: "Fluctuating", label: "Confidence level" },
     ];
 
@@ -538,7 +538,7 @@ Yes... I still debug using console.log.
                             fontSize: "0.92rem",
                         }}
                     >
-                        Built with blood, sweat, StackOverflow, and questionable life choices.
+                        Built with Imagination, LLMs, and questionable life choices.
                     </p>
                 </div>
             </div>
