@@ -1,5 +1,29 @@
-# Me Inside maybe
+# umangp.com
+
+Personal site for Umang Patel, a software engineer in Los Angeles.
 
 [umangp.com](https://umangp.com)
 
-More is on the way. Sorry! if you find rough at some place.
+## Develop
+
+```bash
+npm install
+npm start
+```
+
+The dev server runs at [http://localhost:3000](http://localhost:3000).
+
+## Build and deploy
+
+```bash
+npm run build
+npm run deploy
+```
+
+`npm run build` writes a static site to `build/` and copies `index.html` to `404.html` so unknown paths still load the page. `npm run deploy` publishes that folder to the `gh-pages` branch.
+
+`public/CNAME` is `umangp.com`, so a GitHub Pages deploy keeps the custom domain.
+
+## Content
+
+Experience, projects, skills, and education follow Umang's resume. The site does not list a phone number or street address.
