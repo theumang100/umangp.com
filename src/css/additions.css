@@ -56,6 +56,52 @@ main .description_container {
     margin-top: 0;
 }
 
+main .description_container.page_start {
+    margin-top: 5rem;
+}
+
+.post_body h2,
+.post_body h3 {
+    font-family: var(--heading-font-family);
+    color: var(--heading-color);
+    margin: 1.75rem 0 0.75rem;
+}
+
+.post_body h2 {
+    font-size: 1.45rem;
+}
+
+.post_body h3 {
+    font-size: 1.2rem;
+}
+
+.post_body p,
+.post_body li {
+    font-size: 1.15rem;
+}
+
+.post_body pre {
+    background: var(--light-background);
+    border: 3px solid var(--border-color);
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.post_body code {
+    font-family: var(--code-font-family);
+    font-size: 0.95rem;
+    color: var(--dark-font-color);
+}
+
+.post_body :not(pre) > code {
+    background: var(--light-background);
+    padding: 0.05em 0.3em;
+}
+
+.post_list_link {
+    font-family: var(--heading-font-family);
+}
+
 .description_container,
 .intro_container,
 .smallinfo_container {
@@ -140,15 +186,16 @@ main .description_container {
         align-items: flex-start;
     }
 
-    .intro_container {
+    .intro_container,
+    main .description_container.page_start {
         margin-top: 8rem;
     }
 
-    .about_me_info,
-    .description_container,
-    .smallinfo_container,
-    .intro_container {
-        overflow-wrap: anywhere;
+    h1,
+    .role_block h2,
+    .about_me_info a,
+    .post_body a {
+        overflow-wrap: break-word;
     }
 
     .header_container {

@@ -26,4 +26,6 @@ npm run deploy
 
 ## Content
 
-The page is a short intro, public GitHub projects, and contact links. It does not repeat the resume, and it does not list a phone number or address.
+The page is a short intro, public GitHub projects, a blog, and contact links. It does not repeat the resume, and it does not list a phone number or address.
+
+Add a post by creating `src/posts/your-slug.md` with `title`, `date`, `repo`, and `excerpt` at the top, then the Markdown body. The blog is at `/blog` and `/blog/your-slug`. `npm run build` copies `index.html` to `404.html` so those paths still load on GitHub Pages.

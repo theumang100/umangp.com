@@ -100,3 +100,15 @@
 [data-theme="dark"] .site_footer {
     color: var(--dark-font-color-intro);
 }
+
+[data-theme="dark"] .post_body h2,
+[data-theme="dark"] .post_body h3 {
+    color: white;
+}
+
+[data-theme="dark"] .post_body pre,
+[data-theme="dark"] .post_body code {
+    background: #2d2d31;
+    color: #e8eaed;
+    border-color: #3b3b3b;
+}

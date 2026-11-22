@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { profile, projects } from "../content.js";
 
 function Projects() {
@@ -25,6 +26,11 @@ function Projects() {
                 </p>
               )}
               {project.description && <p>{project.description}</p>}
+              {project.walkthrough && (
+                <p>
+                  <Link to={project.walkthrough}>Walkthrough</Link>
+                </p>
+              )}
             </article>
           ))}
           <a className="github_button" href={profile.github} target="_blank" rel="noreferrer noopener me">
