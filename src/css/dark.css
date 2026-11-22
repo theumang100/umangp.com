@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
-:root {
+/* Original dark theme from public/css/dark.css, scoped so it only applies when toggled. */
+[data-theme="dark"] {
     --font-color: #495057;
     --heading-color: #343a40;
     --background: white;
@@ -23,9 +22,6 @@
     --transparent-text: rgba(0, 0, 0, 0.7);
     --transparent-bg: rgba(0, 0, 0, 0.05);
     --light-transparent-bg: rgba(255, 255, 255, 0.1);
-    --font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', Roboto, Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    --heading-font-family: 'DM Mono', Menlo, monospace;
-    --code-font-family: Menlo, 'Roboto Mono', Courier New, monospace;
     --border-color: var(--dark-font-color);
     --yellow: rgba(254, 220, 71, 1);
     --yellow-orange: rgba(253, 186, 58, 1);
@@ -36,62 +32,83 @@
     --light-green: #92d192;
 }
 
-body {
+[data-theme="dark"] body {
     background-color: var(--dark-background-lower);
 }
 
-.intro_container {
+[data-theme="dark"] .intro_container {
     background-color: var(--dark-background-intro);
 }
 
-.intro_container h1 {
+[data-theme="dark"] .intro_container h1 {
     color: white;
 }
 
-.intro_container p {
+[data-theme="dark"] .intro_container p {
     color: var(--dark-font-color-intro);
 }
 
-a.github_button {
+[data-theme="dark"] a.github_button,
+[data-theme="dark"] button.github_button {
     border: 3px solid var(--dark-border-githun-button);
     background-color: var(--dark-background-intro);
     box-shadow: 5px 5px var(--dark-background-github-button);
+    color: #fff;
 }
 
-a.github_button:hover {
+[data-theme="dark"] a.github_button:hover,
+[data-theme="dark"] button.github_button:hover {
     border: 3px solid var(--link-color);
     background-color: var(--dark-background-intro);
     box-shadow: 5px 5px var(--link-color-darker);
     transition: none;
 }
 
-.description_container {
+[data-theme="dark"] .description_container {
     background-color: var(--dark-background-intro);
 }
 
-.description_container h1 {
+[data-theme="dark"] .description_container h1 {
     color: white;
 }
 
-.description_container p {
+[data-theme="dark"] .description_container p {
     color: var(--dark-font-color-description-subtitle);
 }
 
-.smallinfo_container{
+[data-theme="dark"] .smallinfo_container {
     background-color: var(--dark-background-lower);
     color: var(--dark-font-color-description-subtitle);
 }
 
-.smallinfo_container h1{
+[data-theme="dark"] .smallinfo_container h1,
+[data-theme="dark"] .role_block h2 {
     color: var(--dark-font-color-description-subtitle);
     border-bottom: 1px solid var(--dark-font-color-intro);
 }
 
-.smallinfo_container a{
+[data-theme="dark"] .smallinfo_container a,
+[data-theme="dark"] .about_me_info a {
     color: var(--link-color);
 }
 
-.about_me_info {
+[data-theme="dark"] .about_me_info {
     background-color: var(--dark-background-lower);
     color: var(--dark-font-color-intro);
+}
+
+[data-theme="dark"] .site_footer {
+    color: var(--dark-font-color-intro);
+}
+
+[data-theme="dark"] .post_body h2,
+[data-theme="dark"] .post_body h3 {
+    color: white;
+}
+
+[data-theme="dark"] .post_body pre,
+[data-theme="dark"] .post_body code {
+    background: #2d2d31;
+    color: #e8eaed;
+    border-color: #3b3b3b;
 }
