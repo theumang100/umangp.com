@@ -86,6 +86,7 @@ main .description_container {
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.35rem;
     margin: 0 0 1rem;
+    overflow-wrap: anywhere;
 }
 
 .role_meta {
@@ -95,6 +96,13 @@ main .description_container {
 .about_me_info li,
 .smallinfo_container li {
     margin-bottom: 0.75rem;
+}
+
+.about_me_info a,
+.intro_container a:not(.github_button) {
+    color: var(--link-color);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 .site_footer {
@@ -133,7 +141,14 @@ main .description_container {
     }
 
     .intro_container {
-        margin-top: 11rem;
+        margin-top: 8rem;
+    }
+
+    .about_me_info,
+    .description_container,
+    .smallinfo_container,
+    .intro_container {
+        overflow-wrap: anywhere;
     }
 
     .header_container {

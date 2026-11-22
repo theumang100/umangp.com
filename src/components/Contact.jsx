@@ -48,7 +48,6 @@ function Contact() {
       <div className="description_container">
         <div className="container">
           <h1>Contact.</h1>
-          <p>{profile.location}</p>
         </div>
       </div>
       <div className="smallinfo_container">

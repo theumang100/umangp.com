@@ -87,7 +87,8 @@
     border-bottom: 1px solid var(--dark-font-color-intro);
 }
 
-[data-theme="dark"] .smallinfo_container a {
+[data-theme="dark"] .smallinfo_container a,
+[data-theme="dark"] .about_me_info a {
     color: var(--link-color);
 }
 

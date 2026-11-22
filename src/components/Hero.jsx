@@ -5,8 +5,8 @@ function Hero() {
     <div className="intro_container" id="top">
       <div className="container text-center">
         <h1>Umang Patel</h1>
-        <p>{profile.summary}</p>
-        <p>Los Angeles, CA · Software Engineer II, Amgen · Jan 2023 – Present</p>
+        <p>I like to develop software and solve errors.</p>
+        <p>Software Engineer II at Amgen.</p>
         <a className="github_button" href={`mailto:${profile.email}`}>
           Email
         </a>

@@ -1,6 +1,6 @@
 # umangp.com
 
-Personal site for Umang Patel, a software engineer in Los Angeles.
+Personal site for Umang Patel, a software engineer.
 
 [umangp.com](https://umangp.com)
 
@@ -26,4 +26,4 @@ npm run deploy
 
 ## Content
 
-Experience, projects, skills, and education follow Umang's resume. The site does not list a phone number or street address.
+The page is a short intro, public GitHub projects, and contact links. It does not repeat the resume, and it does not list a phone number or address.
