@@ -2,41 +2,35 @@ import { experience } from "../content.js";
 
 function Experience() {
   return (
-    <section className="section" id="experience" aria-labelledby="experience-title">
-      <div className="wrap">
-        <div className="section-head">
-          <span className="idx" aria-hidden="true">
-            01
-          </span>
-          <h2 id="experience-title">Experience</h2>
+    <section id="experience">
+      <div className="description_container">
+        <div className="container">
+          <h1>Experience.</h1>
+          <p>Software Engineer II at Amgen, and software engineer at Sterlite Technologies Limited.</p>
         </div>
-
-        <div className="roles">
+      </div>
+      <div className="about_me_info">
+        <div className="container">
           {experience.map((role) => (
-            <article className="role" key={role.id}>
-              <h3 className="role-title">{role.title}</h3>
-              <header className="role-meta">
-                <p className="role-org">{role.org}</p>
-                <p className="role-where">{role.location}</p>
-                <p className="role-when">
-                  <time dateTime={role.start}>{role.startLabel}</time>
-                  {" – "}
-                  {role.end ? <time dateTime={role.end}>{role.endLabel}</time> : role.endLabel}
-                </p>
-              </header>
-              <div className="role-body">
-                <p className="stack-label">Tech stack</p>
-                <ul className="stack">
-                  {role.stack.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-                <ul className="bullets">
-                  {role.bullets.map((bullet) => (
-                    <li key={bullet}>{bullet}</li>
-                  ))}
-                </ul>
-              </div>
+            <article className="role_block" key={role.id}>
+              <h2>{role.title}</h2>
+              <p className="role_meta">
+                <b>{role.org}</b>
+                {" · "}
+                {role.location}
+                <br />
+                <time dateTime={role.start}>{role.startLabel}</time>
+                {" – "}
+                {role.end ? <time dateTime={role.end}>{role.endLabel}</time> : role.endLabel}
+              </p>
+              <p>
+                <b>Tech stack:</b> {role.stack.join(", ")}
+              </p>
+              <ul>
+                {role.bullets.map((bullet) => (
+                  <li key={bullet}>{bullet}</li>
+                ))}
+              </ul>
             </article>
           ))}
         </div>

@@ -2,18 +2,18 @@ import { outcomes } from "../content.js";
 
 function Outcomes() {
   return (
-    <section className="outcomes-section" aria-label="Selected outcomes">
-      <div className="wrap">
-        <ul className="outcomes">
+    <div className="smallinfo_container" aria-label="Selected outcomes">
+      <div className="container">
+        <h1>Selected outcomes.</h1>
+        <ul>
           {outcomes.map((item) => (
             <li key={item.value}>
-              <span className="outcome-value">{item.value}</span>
-              <span className="outcome-label">{item.label}</span>
+              <b>{item.value}</b> {item.label}
             </li>
           ))}
         </ul>
       </div>
-    </section>
+    </div>
   );
 }
 

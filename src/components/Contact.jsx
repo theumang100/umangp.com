@@ -22,10 +22,8 @@ const links = [
 
 function Contact() {
   const [copied, setCopied] = useState(false);
-  const [copyFailed, setCopyFailed] = useState(false);
 
   async function copyEmail() {
-    setCopyFailed(false);
     try {
       if (navigator.clipboard?.writeText) {
         await navigator.clipboard.writeText(profile.email);
@@ -40,45 +38,40 @@ function Contact() {
         setCopied(true);
         window.setTimeout(() => setCopied(false), 2000);
       } catch {
-        setCopyFailed(true);
+        setCopied(false);
       }
     }
   }
 
   return (
-    <section className="section contact" id="contact" aria-labelledby="contact-title">
-      <div className="wrap">
-        <div className="section-head">
-          <span className="idx" aria-hidden="true">
-            05
-          </span>
-          <h2 id="contact-title">Contact</h2>
+    <section id="contact">
+      <div className="description_container">
+        <div className="container">
+          <h1>Contact.</h1>
+          <p>{profile.location}</p>
         </div>
-        <p className="contact-lead">{profile.location}</p>
-        <a className="email-link" href={`mailto:${profile.email}`}>
-          {profile.email.split("@")[0]}
-          <wbr />
-          @{profile.email.split("@")[1]}
-        </a>
-        <div className="contact-actions">
-          <button type="button" className="btn btn-ghost" onClick={copyEmail}>
-            {copied ? "Copied" : copyFailed ? "Select the email above" : "Copy email"}
+      </div>
+      <div className="smallinfo_container">
+        <div className="container">
+          <p>
+            <a href={`mailto:${profile.email}`}>{profile.email}</a>
+          </p>
+          <button type="button" className="github_button" onClick={copyEmail}>
+            {copied ? "Copied" : "Copy email"}
           </button>
-          <span className="sr-only" aria-live="polite">
-            {copied ? "Email copied to clipboard" : copyFailed ? "Could not copy automatically" : ""}
-          </span>
-        </div>
-        <ul className="contact-links">
-          {links.map((link) => (
-            <li key={link.label}>
-              <a href={link.href} target="_blank" rel="noreferrer noopener me">
-                <span className="contact-label">{link.label}</span>
-                <span className="contact-detail">{link.detail}</span>
+          <ul>
+            {links.map((link) => (
+              <li key={link.label}>
+                <a href={link.href} target="_blank" rel="noreferrer noopener me">
+                  {link.label}
+                </a>
+                {" · "}
+                {link.detail}
                 <span className="sr-only"> (opens in a new tab)</span>
-              </a>
-            </li>
-          ))}
-        </ul>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </section>
   );
